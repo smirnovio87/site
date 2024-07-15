@@ -2572,4 +2572,42 @@ ul.comment-list .desc1 h5 a {
 ul.list_3 li span {
 	width: 62%;
 }
+
+}
+/* Мои CSS */
+.my-image {
+    width: 300px;
+    height: auto;
+}
+
+@media (min-width: 768px) {
+    .my-image {
+        width: 75%;
+    }
+}
+
+@media (min-width: 992px) {
+    .my-image {
+        width: 80%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .my-image {
+        width: 100%;
+    }
+}
+.row {
+    display: flex;
+}
+.text-column {
+    flex: 1;
+	padding: 20px;
+}
+
+.image-column {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
 }
